@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero-section{
+    background: linear-gradient(black,rgb(255, 208, 0));
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    height: 100vh;
+}
+.premium-section{
+    background: linear-gradient(rgb(255, 208, 0),black);
+}
+.hero-image{
+    animation: sideAnimate 0.8s ease 0s 1 normal;
+}
+@keyframes sideAnimate {
+    from{
+        opacity: 0%;
+        margin-left: 25px;
+    }
+    to{
+        opacity: 100%;
+        margin-left: 0px;
+    }
+}
+.hero-text{
+    animation: textAnimate 0.7s ease-out 0s 1 normal;
+}
+@keyframes textAnimate {
+    from{
+        opacity: 30%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.accounts-section{
+    background-color:black ;
+}
+.about-section{
+    background: linear-gradient(black,rgb(255, 208, 0));
+}
